@@ -1,0 +1,90 @@
+html, a {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    display: flex;
+
+}
+
+.head {
+    position: fixed;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+
+}
+
+.head span {
+    display: inline-flex;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.head img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    top: 69px;
+    flex-direction: column;
+
+}
+
+.mainimg {
+    display: flex;
+    background-image: url("file:///Users/Laura/Desktop/Wohnen_im_Alter/projects/teacozy/resources/images/img-mission-background.jpg");
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.maincontainer {
+    background-color: black;
+    width: inherit;
+    height: auto;
+    padding: 0px;
+}
+
+.itemcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.item {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.item img {
+    width: 300px;
+    height: 200px;
+}
